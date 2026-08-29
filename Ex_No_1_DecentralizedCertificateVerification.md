@@ -1,13 +1,17 @@
-### Experiment 1: Decentralized Certificate Verification
-## Aim:
-  To develop a smart contract for issuing and verifying academic certificates on Ethereum, preventing forgery and ensuring authenticity.
-## Algorithm:
-1. Deploy a smart contract where universities can issue certificates.
-2. Store a hash of certificate data on-chain.
-3. Provide a verification function that checks certificate authenticity.
-4. Users can verify the certificate by comparing the stored hash.
-## Program:
+# Experiment 1: Decentralized Certificate Verification
+# Aim:
+To develop a smart contract for issuing and verifying academic certificates on Ethereum, preventing forgery and ensuring authenticity.
+
+# Algorithm:
+Deploy a smart contract where universities can issue certificates.
+Store a hash of certificate data on-chain.
+Provide a verification function that checks certificate authenticity.
+Users can verify the certificate by comparing the stored hash.
+
+# Program:
+
 ```
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 contract CertificateVerification {
@@ -29,15 +33,9 @@ return certificates[certHash];
 }
 }
 ```
-# Expected Output:
-```
-● When the university issues a certificate, it gets stored as a hash.
-● A student or employer can verify the certificate by entering the details.
-● If valid, it returns true; otherwise, false.
-High-Level Overview:
-● Used to prevent fake certificates.
-● Enables quick verification by employers or other institutions.
-● Shows how blockchain can be used in education and credential verification.
-```
-# Result:
+# Output:
+<img width="1600" height="768" alt="WhatsApp Image 2026-08-20 at 2 04 58 PM" src="https://github.com/user-attachments/assets/3a78689c-83e1-4a52-a6e9-158aa759e455" />
 
+
+# Result:
+The certificate verification experiment is implemented successfully
